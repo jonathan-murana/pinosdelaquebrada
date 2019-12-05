@@ -1,0 +1,94 @@
+0000.003 () Opened log file at time: Sun, 01 Dec 2019 02:27:28 +0000 on http://45.79.197.218:8000
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.20 WP: 5.3 PHP: 7.3.12 (apache2handler, Linux 29ad6f9e241d 3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019 x86_64) MySQL: 5.7.28 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 17501.6 MB
+0000.004 () Opened log file at time: Sun, 01 Dec 2019 02:27:29 +0000 on http://45.79.197.218:8000
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.20 WP: 5.3 PHP: 7.3.12 (apache2handler, Linux 29ad6f9e241d 3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019 x86_64) MySQL: 5.7.28 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.4M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 17501.6 MB
+0000.005 () Ensuring WP_Filesystem is setup for a restore
+0000.005 () WP_Filesystem is setup and ready for a restore
+0000.008 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.011 () Entity: db
+0000.011 () restore_backup(backup_file=backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-db.gz, type=db, info=a:0:{}, last_one=)
+0000.011 () PHP event: code E_NOTICE: Undefined index: path (line 1403, wp-content/plugins/updraftplus/restorer.php)
+0000.011 () Unpacking backup... (backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-db.gz, 0.2 Mb)
+0000.011 () Database successfully unpacked
+0000.011 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.011 () Using direct MySQL access; value of use_mysqli is: 1
+0000.012 () SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.025 () Tried to raise max_allowed_packet from 4 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.025 () Max packet size: 4 MB
+0000.026 () Entering maintenance mode
+0000.026 () Enabling Maintenance mode&#8230;
+0000.026 () Backup of: http://45.79.197.218:8000
+0000.026 () Content URL: http://45.79.197.218:8000/wp-content
+0000.026 () Uploads URL: http://45.79.197.218:8000/wp-content/uploads
+0000.026 () Old table prefix: wp_
+0000.026 () Site information: multisite=0
+0000.027 () New table prefix: wp_
+0000.033 () Processing table (InnoDB): wp_options
+0000.118 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.133 () Processing table (InnoDB): wp_users
+0000.151 () Processing table (InnoDB): wp_usermeta
+0000.165 () Processing table (InnoDB): wp_commentmeta
+0000.179 () Processing table (InnoDB): wp_comments
+0000.196 () Processing table (InnoDB): wp_links
+0000.209 () Processing table (InnoDB): wp_postmeta
+0000.225 () Processing table (InnoDB): wp_posts
+0000.246 () Processing table (InnoDB): wp_term_relationships
+0000.332 () Processing table (InnoDB): wp_term_taxonomy
+0000.345 () Processing table (InnoDB): wp_termmeta
+0000.356 () Processing table (InnoDB): wp_terms
+0000.374 () Processing table (InnoDB): wp_mphb_sync_logs
+0000.385 () Processing table (InnoDB): wp_mphb_sync_queue
+0000.397 () Processing table (InnoDB): wp_mphb_sync_stats
+0000.409 () Processing table (InnoDB): wp_mphb_sync_urls
+0000.415 () Database queries processed: 50 in 0.40 seconds
+0000.416 () UpdraftPlus Vault: this site has not been connected - check your settings
+0000.951 () Unlocking database and leaving maintenance mode
+0000.951 () Disabling Maintenance mode&#8230;
+0000.951 () Finished: lines processed: 50 in 0.94 seconds
+0000.952 () Cleaning up rubbish...
+0000.956 () Entity: plugins
+0000.956 () restore_backup(backup_file=backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.956 () Unpacking backup... (backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-plugins.zip, 8.7 MB)
+0000.956 () Unzipping backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-plugins.zip to /var/www/html/wp-content/upgrade/562c7670/ using UpdraftPlus_ZipArchive, starting index 0
+0001.178 () Unzip progress: 1002 out of 2220 files (19.7 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Enum/Region.php)
+0001.323 () Unzip progress: 2003 out of 2220 files (29.5 MB, plugins/motopress-hotel-booking-lite/templates/loop-room-type/attributes/custom-attributes.php)
+0001.352 () Unzip progress: 2220 out of 2220 files (31 MB, plugins/hello.php)
+0001.354 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.354 () Moving old data: can potentially use wp_filesystem method / -old
+0001.354 () Moving old data out of the way...
+0001.458 () Top-level entities being moved: index.php, updraftplus, motopress-hotel-booking-lite, akismet, hello.php
+0001.459 () Moving unpacked backup into place...
+0001.564 () Top-level entities being moved: index.php, updraftplus, motopress-hotel-booking-lite, akismet, hello.php
+0001.565 () Cleaning up rubbish...
+0001.568 () Entity: themes
+0001.568 () restore_backup(backup_file=backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-themes.zip, type=themes, info=a:2:{s:4:"path";s:31:"/var/www/html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0001.568 () Unpacking backup... (backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-themes.zip, 3.6 MB)
+0001.568 () Unzipping backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-themes.zip to /var/www/html/wp-content/upgrade/b049a32d/ using UpdraftPlus_ZipArchive, starting index 0
+0001.653 () Unzip progress: 373 out of 373 files (6.3 MB, themes/twentytwenty/inc/template-tags.php)
+0001.654 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.654 () Moving old data: can potentially use wp_filesystem method / -old
+0001.654 () Moving old data out of the way...
+0001.671 () Top-level entities being moved: oceanica-lite, index.php, twentysixteen, twentynineteen, twentyseventeen, twentytwenty
+0001.672 () Moving unpacked backup into place...
+0001.690 () Top-level entities being moved: oceanica-lite, index.php, twentysixteen, twentynineteen, twentyseventeen, twentytwenty
+0001.690 () Cleaning up rubbish...
+0001.693 () Entity: uploads
+0001.693 () restore_backup(backup_file=backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0001.693 () Unpacking backup... (backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-uploads.zip, 1.1 MB)
+0001.693 () Unzipping backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-uploads.zip to /var/www/html/wp-content/upgrade/5be99dcb/ using UpdraftPlus_ZipArchive, starting index 0
+0001.698 () Unzip progress: 13 out of 13 files (1.1 MB, uploads/2019/11/fondo-1024x768.jpg)
+0001.698 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.699 () Moving old data: can potentially use wp_filesystem method / -old
+0001.699 () Moving old data out of the way...
+0001.699 () Moving unpacked backup into place...
+0001.700 () Cleaning up rubbish...
+0001.703 () Entity: others
+0001.703 () restore_backup(backup_file=backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-others.zip, type=others, info=a:2:{s:4:"path";s:24:"/var/www/html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0001.703 () Unpacking backup... (backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-others.zip, 0 MB)
+0001.703 () Unzipping backup_2019-12-01-0220_Pinos_de_la_quebrada_cd1a925f4447-others.zip to /var/www/html/wp-content/upgrade/c387122f/ using UpdraftPlus_ZipArchive, starting index 0
+0001.706 () Unzip progress: 5 out of 5 files (56 B, index.php-old)
+0001.706 () Cleaning up rubbish...
+0001.715 () Restore successful!
+0001.715 () Restore successful

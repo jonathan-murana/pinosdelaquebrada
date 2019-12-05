@@ -1,0 +1,233 @@
+0000.000 (0) Opened log file at time: Thu, 05 Dec 2019 02:00:01 +0000 on http://45.79.197.218:8000
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.20 WP: 5.3 PHP: 7.3.12 (apache2handler, Linux 29ad6f9e241d 3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019 x86_64) MySQL: 5.7.28 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.5M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 17612.2 MB
+0000.007 (0) Deleting old temporary file: log.a92d878e7ec5-browser.txt
+0000.009 (0) Deleting old temporary file: log.d5bf554df72e-browser.txt
+0000.009 (0) Deleting old temporary file: log.2ad6aa16d09b-browser.txt
+0000.010 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.017 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-12-05 02:00:01
+0000.023 (0) Semaphore (fd, wp_options) reset to 1
+0000.025 (0) Set semaphore last lock (fd) time to 2019-12-05 02:00:01
+0000.026 (0) Semaphore lock (fd) complete
+0000.032 (0) Backup run: resumption=0, nonce=f44c053d3baf, file_nonce=f44c053d3baf begun at=1575511201 (1s ago), job type=backup
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1575511502) in case this run gets aborted
+0000.057 (0) Checking if we have a zip executable available
+0000.059 (0) Creation of backups of directories: beginning
+0000.063 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.259 (0) Total entities for the zip file: 513 directories, 2959 files (0 skipped as non-modified), 49 MB
+0000.266 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.271 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.276 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.280 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.285 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.287 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.9 MB, 2959 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.112 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 600 files added (on-disk size: 4946.8 KB)
+0002.117 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 700 files added (on-disk size: 4946.8 KB)
+0002.122 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 800 files added (on-disk size: 4946.8 KB)
+0002.127 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 900 files added (on-disk size: 4946.8 KB)
+0002.132 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1000 files added (on-disk size: 4946.8 KB)
+0002.133 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 2959 files batched, 501 (1002) added so far); re-opening (prior size: 4946.8 KB)
+0002.533 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1100 files added (on-disk size: 5751.4 KB)
+0002.538 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1200 files added (on-disk size: 5751.4 KB)
+0002.542 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1300 files added (on-disk size: 5751.4 KB)
+0002.547 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1400 files added (on-disk size: 5751.4 KB)
+0002.551 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1500 files added (on-disk size: 5751.4 KB)
+0002.553 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 2959 files batched, 501 (1503) added so far); re-opening (prior size: 5751.4 KB)
+0002.888 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1600 files added (on-disk size: 6973.1 KB)
+0002.893 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1700 files added (on-disk size: 6973.1 KB)
+0002.898 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1800 files added (on-disk size: 6973.1 KB)
+0002.903 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 1900 files added (on-disk size: 6973.1 KB)
+0002.907 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2000 files added (on-disk size: 6973.1 KB)
+0002.908 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.3 MB, 2959 files batched, 501 (2004) added so far); re-opening (prior size: 6973.1 KB)
+0003.820 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2100 files added (on-disk size: 9077.6 KB)
+0003.825 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2200 files added (on-disk size: 9077.6 KB)
+0003.830 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2300 files added (on-disk size: 9077.6 KB)
+0003.834 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2400 files added (on-disk size: 9077.6 KB)
+0003.839 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2500 files added (on-disk size: 9077.6 KB)
+0003.841 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.6 MB, 2959 files batched, 501 (2505) added so far); re-opening (prior size: 9077.6 KB)
+0005.088 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2600 files added (on-disk size: 13274.7 KB)
+0005.093 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2700 files added (on-disk size: 13274.7 KB)
+0005.098 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2800 files added (on-disk size: 13274.7 KB)
+0005.102 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip.tmp: 2900 files added (on-disk size: 13274.7 KB)
+0005.679 (0) Created plugins zip (0) - 14804.2 KB in 5.6 s (2637 KB/s) (sha1: cd430575b402442cdb563351cc20811d5f4d48b0, sha256: 2efb7f5e3bb04d7293236b64aa1fff7570876b968f9f84e853cce62a2e01cdfe)
+0005.682 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.706 (0) Total entities for the zip file: 64 directories, 309 files (0 skipped as non-modified), 6.3 MB
+0005.711 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.716 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.720 (0) Zip: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.226 (0) Created themes zip (0) - 3658.5 KB in 0.5 s (6741.5 KB/s) (sha1: 701619f5b5c3dee405fba150f5d0f63b6980a43f, sha256: 19fac0516b81c8ef93fa1c71b1eae07761145b5350b6771a54e4ce9b6bd830b1)
+0006.229 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.230 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0006.231 (0) finding files: mphb: adding to list (1)
+0006.232 (0) finding files: 2019: adding to list (2)
+0006.233 (0) finding files: elementor: adding to list (3)
+0006.234 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.239 (0) Total entities for the zip file: 6 directories, 17 files (0 skipped as non-modified), 1.1 MB
+0006.269 (0) Created uploads zip (0) - 1171 KB in 0 s (34892.7 KB/s) (sha1: 7a9192ecb23b024c09c87d3ad8ce2698be062484, sha256: b08ec0240f093050dba66e1e4377885a1d83750679da6fa22305b9ca444eb912)
+0006.272 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.273 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.274 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0006.275 (0) finding files: themes-old: adding to list (1)
+0006.276 (0) finding files: index.php: adding to list (2)
+0006.277 (0) finding files: plugins-old: adding to list (3)
+0006.278 (0) finding files: upgrade: skipping: excluded by options
+0006.279 (0) finding files: uploads: skipping: this is the uploads directory
+0006.280 (0) finding files: uploads-old: adding to list (4)
+0006.281 (0) finding files: index.php-old: adding to list (5)
+0006.282 (0) finding files: updraft: skipping: this is the updraft directory
+0006.283 (0) finding files: themes: skipping: this is the themes directory
+0006.284 (0) finding files: plugins-old-old: adding to list (6)
+0006.285 (0) finding files: themes-old-old: adding to list (7)
+0006.290 (0) finding files: uploads-old-old: adding to list (8)
+0006.300 (0) finding files: index.php-old-old: adding to list (9)
+0006.301 (0) finding files: plugins: skipping: this is the plugins directory
+0006.307 (0) Total entities for the zip file: 6 directories, 3 files (0 skipped as non-modified), 0 MB
+0006.313 (0) Created others zip (0) - 1 KB in 0 s (104.8 KB/s) (sha1: 6377f84ee76e9cdd73337082ddf485878bfcbffe, sha256: 136d981229fc8f51032a02ee6fec65f4240d96cf13c7bb93ce72ce7b65d958a1)
+0006.318 (0) Saving backup status to database (elements: 8)
+0006.321 (0) Beginning creation of database dump (WordPress DB)
+0006.344 (0) Table wp_options: Total expected rows (approximate): 305
+0006.404 (0) Table wp_options: Total rows added: 306 in 0.06 seconds
+0006.406 (0) Table wp_options: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_options.table.gz - 218.6 KB)
+0006.411 (0) Table wp_users: Total expected rows (approximate): 1
+0006.413 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0006.414 (0) Table wp_users: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_users.table.gz - 0.6 KB)
+0006.419 (0) Table wp_usermeta: Total expected rows (approximate): 24
+0006.421 (0) Table wp_usermeta: Total rows added: 24 in 0.00 seconds
+0006.422 (0) Table wp_usermeta: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_usermeta.table.gz - 1.1 KB)
+0006.427 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0006.429 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.430 (0) Table wp_commentmeta: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0006.434 (0) Table wp_comments: Total expected rows (approximate): 20
+0006.437 (0) Table wp_comments: Total rows added: 20 in 0.00 seconds
+0006.438 (0) Table wp_comments: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_comments.table.gz - 1.1 KB)
+0006.443 (0) Table wp_links: Total expected rows (approximate): 0
+0006.445 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0006.446 (0) Table wp_links: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_links.table.gz - 0.4 KB)
+0006.450 (0) Table wp_postmeta: Total expected rows (approximate): 481
+0006.456 (0) Table wp_postmeta: Total rows added: 481 in 0.00 seconds
+0006.460 (0) Table wp_postmeta: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_postmeta.table.gz - 7.6 KB)
+0006.465 (0) Table wp_posts: Total expected rows (approximate): 107
+0006.471 (0) Table wp_posts: Total rows added: 107 in 0.00 seconds
+0006.472 (0) Table wp_posts: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_posts.table.gz - 10.3 KB)
+0006.476 (0) Table wp_term_relationships: Total expected rows (approximate): 15
+0006.478 (0) Table wp_term_relationships: Total rows added: 15 in 0.00 seconds
+0006.479 (0) Table wp_term_relationships: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0006.483 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0006.485 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.00 seconds
+0006.486 (0) Table wp_term_taxonomy: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0006.490 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0006.492 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0006.493 (0) Table wp_termmeta: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_termmeta.table.gz - 0.4 KB)
+0006.497 (0) Table wp_terms: Total expected rows (approximate): 5
+0006.499 (0) Table wp_terms: Total rows added: 5 in 0.00 seconds
+0006.500 (0) Table wp_terms: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_terms.table.gz - 0.5 KB)
+0006.504 (0) Table wp_mphb_sync_logs: Total expected rows (approximate): 0
+0006.506 (0) Table wp_mphb_sync_logs: Total rows added: 0 in 0.00 seconds
+0006.507 (0) Table wp_mphb_sync_logs: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_logs.table.gz - 0.3 KB)
+0006.511 (0) Table wp_mphb_sync_queue: Total expected rows (approximate): 0
+0006.513 (0) Table wp_mphb_sync_queue: Total rows added: 0 in 0.00 seconds
+0006.514 (0) Table wp_mphb_sync_queue: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_queue.table.gz - 0.3 KB)
+0006.520 (0) Table wp_mphb_sync_stats: Total expected rows (approximate): 0
+0006.522 (0) Table wp_mphb_sync_stats: Total rows added: 0 in 0.00 seconds
+0006.523 (0) Table wp_mphb_sync_stats: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_stats.table.gz - 0.3 KB)
+0006.528 (0) Table wp_mphb_sync_urls: Total expected rows (approximate): 0
+0006.530 (0) Table wp_mphb_sync_urls: Total rows added: 0 in 0.00 seconds
+0006.531 (0) Table wp_mphb_sync_urls: finishing file (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_urls.table.gz - 0.3 KB)
+0006.535 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_options.table.gz (1/16): adding to final database dump
+0006.589 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_users.table.gz (2/16): adding to final database dump
+0006.590 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_usermeta.table.gz (3/16): adding to final database dump
+0006.592 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_commentmeta.table.gz (4/16): adding to final database dump
+0006.593 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_comments.table.gz (5/16): adding to final database dump
+0006.594 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_links.table.gz (6/16): adding to final database dump
+0006.595 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_postmeta.table.gz (7/16): adding to final database dump
+0006.598 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_posts.table.gz (8/16): adding to final database dump
+0006.601 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_term_relationships.table.gz (9/16): adding to final database dump
+0006.602 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_term_taxonomy.table.gz (10/16): adding to final database dump
+0006.603 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_termmeta.table.gz (11/16): adding to final database dump
+0006.605 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_terms.table.gz (12/16): adding to final database dump
+0006.606 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_logs.table.gz (13/16): adding to final database dump
+0006.607 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_queue.table.gz (14/16): adding to final database dump
+0006.608 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_stats.table.gz (15/16): adding to final database dump
+0006.609 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db-table-wp_mphb_sync_urls.table.gz (16/16): adding to final database dump
+0006.614 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz: finished writing out complete database file (216 KB)
+0006.622 (0) Total database tables backed up: 16 (backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz, size: 245351, sha1: c12e0a6f47df065d8e574109f70756f4847f629e, sha256: 1b3bf49e2be64568b60abe8bf0f6441069eb040be04a1aec48f71ebf9a6257ac)
+0006.628 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.629 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.630 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.631 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.632 (0) backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.633 (0) Saving backup history. Total backup size: 19.4 MB
+0006.636 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.639 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.641 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-49d88b5be97acaa7fa874953b1d2793c)
+0008.691 (0) Google Drive: quota usage: used=7386.1 MB, total=15360 MB, available=7973.9 MB
+0008.693 (0) Google Drive: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip: Attempting to upload to Google Drive (into folder id: 1UZenv5fgD6GVOgqA0eghwANL3WdMTN7o)
+0009.071 (0) Googledrive chunked upload: 6.9 % uploaded (1048576)
+0009.203 (0) Googledrive chunked upload: 13.8 % uploaded (2097152)
+0009.327 (0) Googledrive chunked upload: 20.8 % uploaded (3145728)
+0009.494 (0) Googledrive chunked upload: 27.7 % uploaded (4194304)
+0009.660 (0) Googledrive chunked upload: 34.6 % uploaded (5242880)
+0009.816 (0) Googledrive chunked upload: 41.5 % uploaded (6291456)
+0009.950 (0) Googledrive chunked upload: 48.4 % uploaded (7340032)
+0010.075 (0) Googledrive chunked upload: 55.3 % uploaded (8388608)
+0010.198 (0) Googledrive chunked upload: 62.3 % uploaded (9437184)
+0010.360 (0) Googledrive chunked upload: 69.2 % uploaded (10485760)
+0010.484 (0) Googledrive chunked upload: 76.1 % uploaded (11534336)
+0010.651 (0) Googledrive chunked upload: 83 % uploaded (12582912)
+0010.820 (0) Googledrive chunked upload: 89.9 % uploaded (13631488)
+0010.959 (0) Googledrive chunked upload: 96.8 % uploaded (14680064)
+0012.163 (0) Googledrive chunked upload: 100 % uploaded (14680064)
+0012.167 (0) Google Drive: OK: Archive backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip uploaded in 3.47 seconds
+0012.168 (0) Recording as successfully uploaded: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip
+0012.173 (0) Deleting local file: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-plugins.zip: OK
+0012.309 (0) Google Drive: quota usage: used=7386.1 MB, total=15360 MB, available=7973.9 MB
+0012.311 (0) Google Drive: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip: Attempting to upload to Google Drive (into folder id: 1UZenv5fgD6GVOgqA0eghwANL3WdMTN7o)
+0012.777 (0) Googledrive chunked upload: 28 % uploaded (1048576)
+0012.908 (0) Googledrive chunked upload: 56 % uploaded (2097152)
+0013.093 (0) Googledrive chunked upload: 84 % uploaded (3145728)
+0014.102 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0014.106 (0) Google Drive: OK: Archive backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip uploaded in 1.79 seconds
+0014.107 (0) Recording as successfully uploaded: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip
+0014.110 (0) Deleting local file: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-themes.zip: OK
+0014.275 (0) Google Drive: quota usage: used=7400.6 MB, total=15360 MB, available=7959.4 MB
+0014.277 (0) Google Drive: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-uploads.zip: Attempting to upload to Google Drive (into folder id: 1UZenv5fgD6GVOgqA0eghwANL3WdMTN7o)
+0014.625 (0) Googledrive chunked upload: 87.4 % uploaded (1048576)
+0016.015 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0016.019 (0) Google Drive: OK: Archive backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-uploads.zip uploaded in 1.74 seconds
+0016.020 (0) Recording as successfully uploaded: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-uploads.zip
+0016.023 (0) Deleting local file: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-uploads.zip: OK
+0016.195 (0) Google Drive: quota usage: used=7400.6 MB, total=15360 MB, available=7959.4 MB
+0016.196 (0) Google Drive: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-others.zip: Attempting to upload to Google Drive (into folder id: 1UZenv5fgD6GVOgqA0eghwANL3WdMTN7o)
+0017.550 (0) Googledrive chunked upload: 100 % uploaded
+0017.554 (0) Google Drive: OK: Archive backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-others.zip uploaded in 1.36 seconds
+0017.555 (0) Recording as successfully uploaded: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-others.zip
+0017.557 (0) Deleting local file: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-others.zip: OK
+0017.839 (0) Google Drive: quota usage: used=7400.6 MB, total=15360 MB, available=7959.4 MB
+0017.840 (0) Google Drive: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz: Attempting to upload to Google Drive (into folder id: 1UZenv5fgD6GVOgqA0eghwANL3WdMTN7o)
+0018.885 (0) Googledrive chunked upload: 100 % uploaded
+0018.889 (0) Google Drive: OK: Archive backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz uploaded in 1.05 seconds
+0018.890 (0) Recording as successfully uploaded: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz
+0018.894 (0) Deleting local file: backup_2019-12-05-0200_Pinos_de_la_quebrada_f44c053d3baf-db.gz: OK
+0018.897 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.899 (0) Number of backup sets in history: 2; groups (db): 1
+0018.900 (0) Examining (for databases) backup set with group_id=0, nonce=f44c053d3baf, datestamp=1575511201 (Dec 05 2019 02:00:01)
+0018.901 (0) This backup set is the backup set just made, so will not be deleted.
+0018.901 (0) Examining (for databases) backup set with group_id=0, nonce=cd1a925f4447, datestamp=1575166856 (Dec 01 2019 02:20:56)
+0018.901 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.902 (0) Number of backup sets in history: 2; groups (files): 1
+0018.903 (0) Examining (for files) backup set with nonce=f44c053d3baf, datestamp=1575511201 (Dec 05 2019 02:00:01)
+0018.903 (0) This backup set is the backup set just made, so will not be deleted.
+0018.904 (0) This backup set is the backup set just made, so will not be deleted.
+0018.904 (0) This backup set is the backup set just made, so will not be deleted.
+0018.904 (0) This backup set is the backup set just made, so will not be deleted.
+0018.904 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.905 (0) Examining (for files) backup set with nonce=cd1a925f4447, datestamp=1575166856 (Dec 01 2019 02:20:56)
+0018.905 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.905 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0018.909 (0) Resume backup (f44c053d3baf, 0): finish run
+0018.912 (0) Decremented the semaphore (fd) by 1
+0018.914 (0) Semaphore (fd) unlocked
+0018.915 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.918 (0) No email will/can be sent - the user has not configured an email address.
+0018.919 (0) The backup apparently succeeded and is now complete
